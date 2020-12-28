@@ -9,7 +9,7 @@ $(document).ready(function () {
 
 function  actionButton(cuPhapSms) {
     if (isMobile) {
-        window.open('sms:&body=' + cuPhapSms, '_self');
+        window.open('sms:999?body=' + cuPhapSms, '_self');
         return false;
     } else {
         // to do open Modal
