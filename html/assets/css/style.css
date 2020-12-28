@@ -149,10 +149,11 @@
 .button-card-content:hover {
     background-image: linear-gradient(134.84deg, #ff5850 0%, #e4261d 100%);
     border-radius: 25px;
-    width: 220px;
-    height: 50px;
+    /*width: 220px;*/
+    height: 49px;
     overflow: hidden;
     color: #ffffff;
+    padding: 0px 15px;
 }
 
 .button-card-content span {
@@ -198,4 +199,26 @@
     font-size: 16px;
     font-weight: 500;
     color: #ffffff;
+}
+.button-close-modal {
+    background-image: linear-gradient(134.84deg, #ff4840 0%, #ffc13b 100%);
+    border: none;
+    border-radius: 25px;
+    padding: 10px 25px;
+    overflow: hidden;
+    color: #ffffff;
+}
+#exampleModalLabel {
+    font-size: 24px;
+    font-weight: 700;
+    color: #105eb5;
+}
+.modal-content-alert {
+    font-size: 20px;
+    font-weight: 500;
+    color: #105eb5;
+
+}
+.modal-content-alert span {
+    color: #e4261d;
 }

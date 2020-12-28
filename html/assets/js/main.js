@@ -7,11 +7,14 @@ $(document).ready(function () {
     }
 })
 
-function  actionButton(cuPhapSms) {
+function  actionButton(tenGoiCuoc) {
     if (isMobile) {
-        window.open('sms:999?body=' + cuPhapSms, '_self');
+        window.open('sms:999?body=DK ' + tenGoiCuoc, '_self');
         return false;
     } else {
         // to do open Modal
+        $('#ten-goi-cuoc').text(tenGoiCuoc);
+        $('#cu-phap-dk').text('DK ' + tenGoiCuoc);
+        $('#exampleModal').modal('show')
     }
 }
