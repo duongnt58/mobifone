@@ -30,21 +30,18 @@
             <img src="assets/img/button-menu.png" alt="">
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-                <!--          <li class="nav-item active">-->
-                <!--            <a class="nav-link" href="#">Home-->
-                <!--              <span class="sr-only">(current)</span>-->
-                <!--            </a>-->
-                <!--          </li>-->
-                <!--          <li class="nav-item">-->
-                <!--            <a class="nav-link" href="#">About</a>-->
-                <!--          </li>-->
-                <!--          <li class="nav-item">-->
-                <!--            <a class="nav-link" href="#">Services</a>-->
-                <!--          </li>-->
-                <!--          <li class="nav-item">-->
-                <!--            <a class="nav-link" href="#">Contact</a>-->
-                <!--          </li>-->
+            <ul class="navbar-nav ml-auto d-block d-sm-none">
+                          <li class="nav-item active">
+                            <a class="nav-link" href="#">Giới thiệu về MobiFone
+                              <span class="sr-only">(current)</span>
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Hướng đãn đăng ký gói cước</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Câu hỏi thường gặp</a>
+                          </li>
             </ul>
         </div>
     </div>
@@ -53,17 +50,18 @@
 <div class="head-slide">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6 text-left">
-                <img src="assets/img/head-img-goi-cuoc.svg" alt="">
+            <div class="col-lg-6 text-lg-left col-12 text-center">
+                <img src="assets/img/head-img-goi-cuoc.svg" alt="" class="d-none d-sm-block">
+                <img src="assets/img/head-img-goi-cuoc-mobile.svg" alt="" class="d-inline d-sm-none">
                 <p class="text-head-img">Combo Data, thoại liên mạng và ngoại mạng</p>
                 <p class="text-title-head-img">ƯU ĐÃI GÓI CƯỚC</p>
                 <p class="text-head-img">Quý khách có 1,5GB data, 50 phút nội mạng và 20 phút liên mạng</p>
-                <button class="button-head-slide">
+                <button class="button-head-slide" onclick="actionButton('DK SM')">
                     <span>Đăng ký gói cước</span>
                 </button>
             </div>
-            <div class="col-lg-6 text-right">
-                <img src="assets/img/head-slide-img-phone.png" alt="" class="head-slide-img-phone">
+            <div class="col-lg-6  col-12 text-right">
+                <img src="assets/img/head-slide-img-phone.png" alt="" class="head-slide-img-phone img-fluid">
             </div>
         </div>
     </div>
@@ -71,10 +69,22 @@
 <!--  Middle div-->
 <div class="middle-div">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
+        <div class="row d-block d-sm-none">
+            <div class=" col-12 text-center text-content-middle">
+                <h3>
+                    “Lướt web cùng smartphone, Không lo tiền data và gọi thoại” với các Gói cước Combo của
+                </h3>
+                <p> Các gói cước COMBO Data + Thoại của MobiFone giúp bạn tiết kiệm chi phí tối đa trong quá trình sử
+                    dụng. Các gói cước ưu đã bạn có thể chọn dưới đây</p>
+            </div>
+            <div class="col-12 text-center text-content-middle">
+                <img src="assets/img/man-img.png" alt="" srcset="" class=" img-fluid">
+            </div>
+        </div>
+        <div class="row d-none d-sm-block">
+            <div class="col-lg-12 col-12 text-center">
                 <div class='photo-stack'>
-                    <img src="assets/img/man-img.png" alt="" srcset="" class="img-man-midle">
+                    <img src="assets/img/man-img.png" alt="" srcset="" class="img-man-midle img-fluid ">
                     <img src="assets/img/middle-title.png" alt="">
                 </div>
             </div>
@@ -89,8 +99,8 @@
             <img src="assets/img/goi-chu-ky-ngay.svg" alt="" srcset="">
         </div>
     </div>
-    <div class="row">
-        <div class="col-lg-3 text-center">
+    <div class="row px-4">
+        <div class="col-lg-3 text-center mb-3">
             <div class="card goi-cuoc">
                 <div class="card-body">
                     <h3>
@@ -109,7 +119,7 @@
             </div>
         </div>
 
-        <div class="col-lg-3 text-center">
+        <div class="col-lg-3 text-center mb-3">
             <div class="card goi-cuoc">
                 <div class="card-body">
                     <h3>
@@ -128,7 +138,7 @@
             </div>
         </div>
 
-        <div class="col-lg-3 text-center">
+        <div class="col-lg-3 text-center mb-3">
             <div class="card goi-cuoc">
                 <div class="card-body">
                     <h3>
@@ -146,7 +156,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-3 text-center">
+        <div class="col-lg-3 text-center mb-3">
             <div class="card goi-cuoc">
                 <div class="card-body">
                     <h3>
@@ -171,8 +181,8 @@
             <img src="assets/img/goi-chu-ky-thang.svg" alt="" srcset="">
         </div>
     </div>
-    <div class="row">
-        <div class="col-lg-3 text-center">
+    <div class="row pl-4 pr-4">
+        <div class="col-lg-3 text-center mb-3">
             <div class="card goi-cuoc">
                 <div class="card-body">
                     <h3>
@@ -191,7 +201,7 @@
             </div>
         </div>
 
-        <div class="col-lg-3 text-center">
+        <div class="col-lg-3 text-center mb-3">
             <div class="card goi-cuoc">
                 <div class="card-body">
                     <h3>
@@ -210,7 +220,7 @@
             </div>
         </div>
 
-        <div class="col-lg-3 text-center">
+        <div class="col-lg-3 text-center mb-3">
             <div class="card goi-cuoc">
                 <div class="card-body">
                     <h3>
@@ -228,7 +238,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-3 text-center">
+        <div class="col-lg-3 text-center mb-3">
             <div class="card goi-cuoc">
                 <div class="card-body">
                     <h3>
@@ -253,14 +263,29 @@
 <!--end div-->
 <div class="end-div">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-4">
+        <div class="row d-block d-sm-none">
+            <div class=" col-12 text-center text-content-middle">
+                <h3>
+                    Đăng ký ngay, nhận luôn ưu đãi!
+                </h3>
+                <p>
+                    Các gói cước COMBO Data + Thoại của MobiFone luôn nhận được sự quan tâm của nhiều khách hàng, những
+                    gói cước này sở hữu COMBO ƯU ĐÃI khủng giúp đáp ứng nhu cầu sử dụng trong quá trình lướt internet và
+                    liên lạc
+                </p>
+            </div>
+            <div class="col-12 text-center text-content-middle">
+                <img src="assets/img/girl-img.png" alt="" srcset="" class=" img-fluid">
+            </div>
+        </div>
+        <div class="row d-none d-sm-flex">
+            <div class="col-md-4">
                 <div class=''>
                     <img src="assets/img/girl-img.png" alt="" srcset="" class="">
                 </div>
             </div>
-<!--            <div class="col-lg-1"></div>-->
-            <div class="col-lg-8 end-div-content">
+            <!--            <div class="col-lg-1"></div>-->
+            <div class="col-md-8 end-div-content">
                 <h4>
                     Đăng ký ngay, nhận luôn ưu đãi!
                 </h4>
@@ -275,27 +300,33 @@
 </div>
 <!--footer-->
 <div class="footer-div">
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-lg-3">
-            <a href="#">Giới thiệu về MobiFone</a>
+    <div class="container-fluid">
+        <div class="row d-none d-sm-flex">
+            <div class="col-lg-3">
+                <a href="#">Giới thiệu về MobiFone</a>
+            </div>
+            <div class="col-lg-3">
+                <a href="#">Hướng đãn đăng ký gói cước</a>
+            </div>
+            <div class="col-lg-3">
+                <a href="#">Câu hỏi thường gặp</a>
+            </div>
+            <div class="col-lg-3">
+                <a href="#">Copyright © 2020. All Righ Reserved</a>
+            </div>
         </div>
-        <div class="col-lg-3">
-            <a href="#">Hướng đãn đăng ký gói cước</a>
-        </div>
-        <div class="col-lg-3">
-            <a href="#">Câu hỏi thường gặp</a>
-        </div>
-        <div class="col-lg-3">
-            <a href="#">Copyright © 2020. All Righ Reserved</a>
+        <div class="row d-block d-sm-none">
+            <div class="col-12 text-center">
+                <a href="#">Copyright © 2020. All Righ Reserved</a>
+            </div>
         </div>
     </div>
-</div>
 </div>
 <!-- Bootstrap core JavaScript -->
 <script src="vendor/jquery/jquery.slim.min.js"></script>
 <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- Cumstom Js -->
+<script src="assets/js/main.js"></script>
 </body>
 
 </html>

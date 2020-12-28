@@ -1,7 +1,7 @@
 .head-slide {
     background-color: #2c7ad1;
     width: 100%;
-    height: 400px;
+    /*height: 400px;*/
     padding-top: 50px;
 }
 
@@ -42,11 +42,27 @@
 .middle-div {
     background-image: linear-gradient(180deg, #ffffff 0%, #e2f0ff 100%);
     width: 100%;
-    height: 450px;
+    min-height: 450px;
+}
+.text-content-middle {
+    color:  #105eb5;
+    margin-top: 50px;
+}
+.text-content-middle h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #105eb5;
+}
+.text-content-middle p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #105eb5;
+
 }
 
 .img-man-midle {
     padding-top: 52px;
+    display: block;
 }
 
 .photo-stack {
@@ -62,6 +78,9 @@
     /*border: 1px solid white;*/
     /*box-shadow: 0 1px 3px -2px rgba(0,0,0,.5);*/
     /*transition: all 0.3s ease-out;*/
+}
+.img-man-midle-mobile {
+    position: relative;
 }
 
 .photo-stack img:nth-child(1) {
@@ -120,10 +139,11 @@
     background-color: #ffffff;
     border-radius: 24.5px;
     border: 1px solid #e4261d;
-    width: 219px;
+    /*width: 219px;*/
     height: 49px;
     overflow: hidden;
     color: #e4261d;
+    padding: 0px 15px;
 }
 
 .button-card-content:hover {
@@ -148,7 +168,7 @@
 .end-div {
     background-image: linear-gradient(180deg, #ffffff 0%, #e2f0ff 100%);
     width: 100%;
-    height: 333px;
+    /*height: 333px;*/
 }
 
 .end-div h4 {
@@ -173,9 +193,9 @@
     width: 100%;
     padding: 20px 20px;
 }
+
 .footer-div a {
     font-size: 16px;
     font-weight: 500;
     color: #ffffff;
-
 }
