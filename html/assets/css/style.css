@@ -1,3 +1,23 @@
+@font-face {
+    font-family: VIE-HandelGothic;
+    src: url('assets/font/VIE-HandelGothic-Bold_0.otf');
+    font-weight: bold;
+}
+@font-face {
+    font-family: VIE-HandelGothic;
+    src: url('assets/font/VIE-HandelGothic Medium_0.otf');
+    font-weight: normal;
+}
+@font-face {
+    font-family: VIE-HandelGothic;
+    src: url('assets/font/VIE-HandelGothic-MediumItal_0.otf');
+    font-style: italic;
+}
+
+body {
+
+    font-family: myFirstFont,Verdana, Arial, Helvetica, sans-serif;
+}
 .head-slide {
     background-color: #2c7ad1;
     width: 100%;
@@ -157,12 +177,12 @@
 }
 
 .button-card-content span {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
 }
 
 .button-card-content span:hover {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
 }
 
