@@ -105,172 +105,101 @@
     </div>
 </div>
 <!-- Page Content -->
-<div class="container page-content">
-    <!--    goi ngay-->
+<div class="container page-content-phu">
     <div class="row">
-        <div class="col-lg-12 text-center img-goi-ngay">
-            <img src="assets/img/goi-chu-ky-ngay.svg" alt="" srcset="">
+        <div class="col-12">
+            <h4 class="text-center">
+                CÂU HỎI THƯỜNG GẶP
+            </h4>
+            <div class="accordion" id="accordionExample">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <b>1.Các gói cước combo có tự động gia hạn không?</b>
+                      </button>
+                    </h5>
+                  </div>
+              
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Các gói cước combo được tự động gia hạn khi thuê bao chưa thực hiện hủy gói cước
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <b>2.Cước phí gửi tin nhắn lên 9084 là bao nhiêu?</b>
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Thuê bao không mất phí khi gửi tin nhắn lên đầu số 999
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <b>3.Tôi có được nhận tin nhắn báo đang sử dụng gói cước không?</b>
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Khi đăng ký gói cước, thuê bao sẽ nhận được thông báo đăng ký gói cước thành công khi đủ điều kiện sử dụng gói cước
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="heading4">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                          <b>4.Tổng đài hỗ trợ giải đáp gói cước là gì?</b>
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordionExample">
+                      <div class="card-body">
+                        Thuê bao có thể gọi tới tổng đài 9090 để được hỗ trợ giải đáp về gói cước combo
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="heading5">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                          <b>5.Tôi muốn kiếm tra dung lượng data và phút thoại đang sử dụng thì phải làm thế nào?</b>
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#accordionExample">
+                      <div class="card-body">
+                        Thuê bao có thể soạn cú pháp: KT all gửi 999 hoặc gọi tới tổng đài 9090 kiểm tra dung lượng data và phút thoại đang sử dụng
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="heading6">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                          <b>6.Khi tôi hết data trong gói thì sẽ bị ngắt dung lượng hay hạ băng thông?</b>
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapse6" class="collapse" aria-labelledby="heading6" data-parent="#accordionExample">
+                      <div class="card-body">
+                        Thuê bao có thể soạn cú pháp: KT all gửi 999 hoặc gọi tới tổng đài 9090 kiểm tra dung lượng data và phút thoại đang sử dụng
+                      </div>
+                    </div>
+                  </div>
+              </div>
         </div>
     </div>
-    <div class="row px-4">
-        <div class="col-lg-3 text-center mb-3">
-            <div class="card goi-cuoc">
-                <div class="card-body">
-                    <h3>
-                        GÓI SD
-                    </h3>
-                    <div style="display: grid; margin-top: 30px; margin-bottom: 30px" class="goi-cuoc-content">
-                        <span>300MB</span>
-                        <span>6 phút nội mạng và 2 phút liên mạng</span>
-                        <span>5.000đ</span>
-                        <span>24h</span>
-                    </div>
-                    <button class="button-card-content" onclick="actionButton('SD')">
-                        <span>Đăng ký gói cước</span>
-                    </button>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-lg-3 text-center mb-3">
-            <div class="card goi-cuoc">
-                <div class="card-body">
-                    <h3>
-                        GÓI MD
-                    </h3>
-                    <div style="display: grid; margin-top: 30px; margin-bottom: 30px" class="goi-cuoc-content">
-                        <span>500MB</span>
-                        <span>18 phút nội mạng và 4 phút liên mạng</span>
-                        <span>10.000đ</span>
-                        <span>24h</span>
-                    </div>
-                    <button class="button-card-content" onclick="actionButton('MD')">
-                        <span>Đăng ký gói cước</span>
-                    </button>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-lg-3 text-center mb-3">
-            <div class="card goi-cuoc">
-                <div class="card-body">
-                    <h3>
-                        GÓI LD
-                    </h3>
-                    <div style="display: grid; margin-top: 30px; margin-bottom: 30px" class="goi-cuoc-content">
-                        <span>300MB</span>
-                        <span>32 phút nội mạng và 8 phút liên mạng</span>
-                        <span>15.000đ</span>
-                        <span>24h</span>
-                    </div>
-                    <button class="button-card-content" onclick="actionButton('LD')">
-                        <span>Đăng ký gói cước</span>
-                    </button>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-3 text-center mb-3">
-            <div class="card goi-cuoc">
-                <div class="card-body">
-                    <h3>
-                        GÓI XD
-                    </h3>
-                    <div style="display: grid; margin-top: 30px; margin-bottom: 30px" class="goi-cuoc-content">
-                        <span>300MB</span>
-                        <span>40 phút nội mạng và 10 phút liên mạng</span>
-                        <span>20.000đ</span>
-                        <span>24h</span>
-                    </div>
-                    <button class="button-card-content" onclick="actionButton('XD')">
-                        <span>Đăng ký gói cước</span>
-                    </button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--      goi thang-->
-    <div class="row">
-        <div class="col-lg-12 text-center img-goi-ngay">
-            <img src="assets/img/goi-chu-ky-thang.svg" alt="" srcset="">
-        </div>
-    </div>
-    <div class="row pl-4 pr-4">
-        <div class="col-lg-3 text-center mb-3">
-            <div class="card goi-cuoc">
-                <div class="card-body">
-                    <h3>
-                        GÓI SM
-                    </h3>
-                    <div style="display: grid; margin-top: 30px; margin-bottom: 30px" class="goi-cuoc-content">
-                        <span>1.5GB</span>
-                        <span>50 phút nội mạng và 20 phút liên mạng</span>
-                        <span>50.000đ</span>
-                        <span>24h x 30 ngày</span>
-                    </div>
-                    <button class="button-card-content" onclick="actionButton('SM')">
-                        <span>Đăng ký gói cước</span>
-                    </button>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-lg-3 text-center mb-3">
-            <div class="card goi-cuoc">
-                <div class="card-body">
-                    <h3>
-                        GÓI MM
-                    </h3>
-                    <div style="display: grid; margin-top: 30px; margin-bottom: 30px" class="goi-cuoc-content">
-                        <span>3.5GB</span>
-                        <span>10 phút nội mạng và 40 phút liên mạng</span>
-                        <span>100.000đ</span>
-                        <span>24h x 30 ngày</span>
-                    </div>
-                    <button class="button-card-content" onclick="actionButton('MM')">
-                        <span>Đăng ký gói cước</span>
-                    </button>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-lg-3 text-center mb-3">
-            <div class="card goi-cuoc">
-                <div class="card-body">
-                    <h3>
-                        GÓI LM
-                    </h3>
-                    <div style="display: grid; margin-top: 30px; margin-bottom: 30px" class="goi-cuoc-content">
-                        <span>5.6GB</span>
-                        <span>10 phút nội mạng và 100 phút liên mạng</span>
-                        <span>150.000đ</span>
-                        <span>24h x 30 ngày</span>
-                    </div>
-                    <button class="button-card-content" onclick="actionButton('LM')">
-                        <span>Đăng ký gói cước</span>
-                    </button>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-3 text-center mb-3">
-            <div class="card goi-cuoc">
-                <div class="card-body">
-                    <h3>
-                        GÓI XM
-                    </h3>
-                    <div style="display: grid; margin-top: 30px; margin-bottom: 30px" class="goi-cuoc-content">
-                        <span>8GB</span>
-                        <span>10 phút nội mạng và 140 phút liên mạng</span>
-                        <span>100.000đ</span>
-                        <span>24h x 30 ngày</span>
-                    </div>
-                    <button class="button-card-content" onclick="actionButton('XM')">
-                        <span>Đăng ký gói cước</span>
-                    </button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--  end goi thang    -->
 </div>
 
 <!--end div-->
