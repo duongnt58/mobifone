@@ -48,7 +48,7 @@ body {
 
 .head-slide-img-phone {
     width: 574px;
-    height: 324px;
+    /* height: 324px; */
 }
 
 .middle-div {
@@ -65,8 +65,19 @@ body {
     padding-top: 75px;
     padding-bottom: 75px;
 }
+
+.text-content-middle-mobile {
+    color:  #105eb5;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.text-content-middle h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #105eb5;
+}
 .text-content-middle h3 {
-    font-size: 24px;
+    font-size: 25px;
     font-weight: 700;
     color: #105eb5;
 }
@@ -276,4 +287,8 @@ body {
 }
 .modal-content-alert span {
     color: #e4261d;
+}
+.footer-content {
+    width: 20%;
+    display: inline-block;
 }
